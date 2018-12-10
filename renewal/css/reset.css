@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* Font Style */
+@font-face {
+	font-family:'나눔 고딕';
+	src:url('../fonts/NanumGothic.eot?#iefix') format('embedded-opentype');
+	src:local('나눔 고딕'), url('../fonts/NanumGothic.woff') format('woff');
+	src:local('나눔 고딕'), url('../fonts/NanumGothic.woff2') format('woff2');
+
+}
+
+/* 여백초기화 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button,figure,figcaption{margin:0;padding:0}
+
+/* 스크롤 */
+/* html {scroll-behavior: smooth} */
+
+/* 테두리 초기화 */
+
+fieldset,img{border:0 none}
+
+/* 리스트 스타일 초기화 */
+dl,ul,ol,menu,li{list-style:none}
+
+/* 폰트 초기화 */
+body,th,td,input,select,textarea,button{font-family:"나눔 고딕","Nanum Gothic",'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;color:#222;line-height: 1.5}
+
+/* 링크 초기화 */
+a{ color:#222; text-decoration:none; transition: .3s ease; -webkit-transition: .3s ease; -moz-transition: .3s ease; -ms-transition: .3s ease; -o-transition: .3s ease; }
+a:hover{color:#118eff;text-decoration:none;}
+a:active{background-color:transparent}
+
+/* 버튼 초기화 */
+button {border:none;outline: none;}
+button:hover {transition: color 0.3s ease-in-out}
+
+/* 폰트스타일 초기화 */
+address,caption,cite,code,dfn,var{font-style:normal;font-weight:normal}
+em {font-style: normal}
+
+/* 폰트 두께 초기화 */
+h1,h2,h5,h6{font-weight: normal;}
+
+/* blind 효과 */
+.blind {position: absolute;left:0;top:0;width:0;height: 0;font-size: 0;overflow: hidden;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after{display:block;content: "";line-height: 0;}
+.clearfix:after{clear:both}
+
+/* 반응형 img */
+img,video {max-width:100%;display:block}
