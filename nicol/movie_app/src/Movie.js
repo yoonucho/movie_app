@@ -42,7 +42,13 @@ class MoviePoster extends Component {
     poster: PropTypes.string.isRequired
   };
   render() {
-    return <img src={this.props.poster} alt="MoviePoster" />;
+    return (
+      <img
+        className="Movie__Poster"
+        src={this.props.poster}
+        alt="MoviePoster"
+      />
+    );
   }
 }
 
